@@ -1,76 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toko Online Lengkap</title>
-  <link href="style.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JLD Tools</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">E-CommerceKu</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
-          <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="kategoriDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Kategori
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="kategoriDropdown">
-              <li><a class="dropdown-item" href="#">Cordless drill</a></li>
-              <li><a class="dropdown-item" href="#">Impact Wrench</a></li>
-              <li><a class="dropdown-item" href="#">Impact an Gle Mill</a></li>
-              <li><a class="dropdown-item" href="#">Jet Cleaner</a></li>
-              <li><a class="dropdown-item" href="#">Electric Hand Saw</a></li>
-              <li><a class="dropdown-item" href="#">Lawn Mower</a></li>
-              <li><a class="dropdown-item" href="#">Lithium Electric Drill</a></li>
-              <li><a class="dropdown-item" href="#">Electric drill</a></li>
-              <li><a class="dropdown-item" href="#">Angle Grinder</a></li>
-              <li><a class="dropdown-item" href="#">Circular Saw</a></li>
-              <li><a class="dropdown-item" href="#">Curvesaw</a></li>
-              <li><a class="dropdown-item" href="#">Trimming machine</a></li>
-              <li><a class="dropdown-item" href="#">Polishing Machine</a></li>
-              <li><a class="dropdown-item" href="#">Electric Welding Machine</a></li>
-              <li><a class="dropdown-item" href="#">Drill Set</a></li>
-              <li><a class="dropdown-item" href="#">Step Drill</a></li>
-              <li><a class="dropdown-item" href="#">Tool Kit Set</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-        </ul>
-        <a href="cart.html" class="btn btn-outline-light">
-          <i class="fas fa-shopping-cart"></i> Keranjang (<span id="cart-count">0</span>)
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="bg-primary text-white text-center py-5">
-    <h1>Selamat Datang di Toko Online Kami</h1>
-    <p>Temukan produk terbaik dengan harga menarik</p>
-  </div>
-
-  <section class="container my-5" id="produk">
-    <h2 class="mb-4">Produk Unggulan</h2>
-    <div class="row" id="product-list"></div>
-  </section>
-
-  <footer class="bg-light py-4 mt-5" id="kontak">
-    <div class="container">
-      <h5>Kontak Kami</h5>
-      <p>Email: info@tokoku.com | Telepon: 0812-3456-7890</p>
-      <p>&copy; 2025 Toko Online. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
